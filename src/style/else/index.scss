@@ -1,0 +1,30 @@
+@import "../ext";
+#root >.ROOT{height: 100vh;}
+
+.ROUTE, .CPMT{position: relative;}
+
+.CPMT.TOP{
+    @include hh(5rem);
+    @include cc(#eee, #999);
+    letter-spacing: .2rem;
+    user-select: none;
+    cursor: default;
+    >.tit{
+        padding: 0 1rem;
+        &.m{font-size: 2rem;}
+        &.s{font-size: 1.5rem;}
+    }
+}
+
+.CPMT.NAV{
+    @include hh(3rem);
+    @include cc(#777, #ccc);
+    font-size: 1.2rem;
+    user-select: none;
+    >.it{
+        cursor: pointer;
+        padding: 0 1rem;
+        &:hover{color:#333}
+        &.active{color:#009}
+    }
+}
