@@ -1,0 +1,28 @@
+@import "./normalize/var";
+
+@mixin mp($m:0, $p:0) {
+    margin: $m;
+    padding:$p;
+}
+
+@mixin wh($w:100%, $h:100%) {
+    width: $w;
+    height: $h;
+}
+
+@mixin hh($h:1rem, $lh:$h) {
+    height: $h;
+    line-height: $lh;
+}
+
+@mixin cc($c:$normal_color, $bgc:$normal_bgc) {
+    color: $c;
+    background-color: $bgc;
+}
+
+@mixin abc($type:absolute) {
+    position: $type;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}

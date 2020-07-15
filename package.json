@@ -1,0 +1,22 @@
+{
+    "devDependencies": {
+        "@babel/core": "^7.10.5",
+        "@babel/preset-react": "^7.10.4",
+        "parcel": "^1.12.4",
+        "sass": "^1.26.10"
+    },
+    "scripts": {
+        "start": "parcel src/index.html",
+        "dev": "parcel src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-react"
+        ]
+    },
+    "dependencies": {
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    }
+}

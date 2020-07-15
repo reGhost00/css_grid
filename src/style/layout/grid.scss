@@ -1,0 +1,21 @@
+@import "../ext";
+
+.DF{display: flex;}
+.DIF{display: inline-flex;}
+.DF, .DIF{
+    &.FDC{flex-direction: column;}
+    &.AIC{align-items: center;}
+    &.AIE{align-items: flex-end;}
+    &.JCB{justify-content: space-between;}
+    &.JCC{justify-content: center;}
+    &.JCE{justify-content: flex-end;}
+    >.FA{flex: auto;}
+    >.FN{flex: none;}
+    >.ASS{align-self: flex-start;}
+    >.ASE{align-self: flex-end;}
+}
+
+.R{
+    @include mp;
+    display: flex;
+}
