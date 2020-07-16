@@ -1,4 +1,13 @@
 @import "../ext";
+$BP_R1:37rem;
+$BP_R2:47rem;
+$BP_R3:59rem;
+
+$BP_C1:31rem;
+$BP_C2:41rem;
+$BP_C3:53rem;
+$BP_C4:61rem;
+$BP_C5:71rem;
 
 .DF{display: flex;}
 .DIF{display: inline-flex;}
@@ -16,6 +25,35 @@
 }
 
 .R{
-    @include mp;
     display: flex;
+}
+
+@media screen and (max-width:$BP_R1){
+    .R.BP1{
+        display: block;
+        >.C{
+            display: block;
+            width:100%;
+        }
+    }
+}
+
+@media screen and (max-width:$BP_R2){
+    .R.BP2{
+        display: block;
+        >.C{
+            display: block;
+            width:100%;
+        }
+    }
+}
+
+@media screen and (max-width:$BP_R3){
+    .R.BP3{
+        display: block;
+        >.C{
+            display: block;
+            width:100%;
+        }
+    }
 }

@@ -28,3 +28,14 @@
         &.active{color:#009}
     }
 }
+
+.S3{
+    .R{
+        padding: .5rem 0;
+    }
+    .C{
+        @include hh(2rem);
+        @include mp(0 .5rem, 0 .5rem);
+        background-color: #fff;
+    }
+}
