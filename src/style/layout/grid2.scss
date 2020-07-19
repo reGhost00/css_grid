@@ -1,0 +1,479 @@
+@import "../normalize/_var";
+
+$BP1:31 *$normal_fsz;// rem;
+$BP2:41 *$normal_fsz;// rem;
+$BP3:47 *$normal_fsz;// rem;
+$BP4:59 *$normal_fsz;// rem;
+$BP5:67 *$normal_fsz;// rem;
+$BP6:73 *$normal_fsz;// rem;
+$BP7:83 *$normal_fsz;// rem;
+$BP8:97 *$normal_fsz;// rem;
+$BP9:103 *$normal_fsz;// rem;
+$BP10:109 *$normal_fsz;// rem;
+$BP11:127 *$normal_fsz;// rem;
+$BP12:137 *$normal_fsz;// rem;
+$BP13:149 *$normal_fsz;// rem;
+$BP14:157 *$normal_fsz;// rem;
+$BP15:167 *$normal_fsz;// rem;
+//col
+
+.DF{
+    display: flex;
+    &.BPR{width: 100%;}
+    &.W{flex-wrap: wrap;}
+    &.FDC{flex-direction: column;}
+    &.AIC{align-items: center;}
+    &.AIE{align-items: flex-end;}
+    &.JCB{justify-content: space-between;}
+    &.JCC{justify-content: center;}
+    &.JCE{justify-content: flex-end;}
+    >.FA{flex: auto;}
+    >.FN{flex: none;}
+    >.ASS{align-self: flex-start;}
+    >.ASE{align-self: flex-end;}
+    //col
+    >.C5{min-width: 5%;}
+    >.C10{min-width: 10%;}
+    >.C15{min-width: 15%;}
+    >.C20{min-width: 20%;}
+    >.C25{min-width: 25%;}
+    >.C30{min-width: 30%;}
+    >.C35{min-width: 35%;}
+    >.C40{min-width: 40%;}
+    >.C45{min-width: 45%;}
+    >.C50{min-width: 50%;}
+    >.C55{min-width: 55%;}
+    >.C60{min-width: 60%;}
+    >.C65{min-width: 65%;}
+    >.C70{min-width: 70%;}
+    >.C75{min-width: 75%;}
+    >.C80{min-width: 80%;}
+    >.C85{min-width: 85%;}
+    >.C90{min-width: 90%;}
+    >.C95{min-width: 95%;}
+    >.C{width: 100%;}
+}
+
+.BP1,.BP2,.BP3,.BP4,.BP5,.BP6,.BP7,.BP8,.BP9,.BP10,.BP11,.BP12,.BP13,.BP14,.BP15{
+    &.DF{display: block;}
+}
+
+@media screen and (min-width:$BP1){
+    .DF{
+        &.BP1{
+            display: flex;
+            &.BPR{width: $BP1;}
+        }
+        >.C5BP1{width: 5%;}
+        >.C10BP1{width: 10%;}
+        >.C15BP1{width: 15%;}
+        >.C20BP1{width: 20%;}
+        >.C25BP1{width: 25%;}
+        >.C30BP1{width: 30%;}
+        >.C35BP1{width: 35%;}
+        >.C40BP1{width: 40%;}
+        >.C45BP1{width: 45%;}
+        >.C50BP1{width: 50%;}
+        >.C55BP1{width: 55%;}
+        >.C60BP1{width: 60%;}
+        >.C65BP1{width: 65%;}
+        >.C70BP1{width: 70%;}
+        >.C75BP1{width: 75%;}
+        >.C80BP1{width: 80%;}
+        >.C85BP1{width: 85%;}
+        >.C90BP1{width: 90%;}
+        >.C95BP1{width: 95%;}
+    }
+}
+
+@media screen and (min-width:$BP2){
+    .DF{
+        &.BP2{
+            display: flex;
+            &.BPR{width: $BP2;}
+        }
+        >.C5BP2{width: 5%;}
+        >.C10BP2{width: 10%;}
+        >.C15BP2{width: 15%;}
+        >.C20BP2{width: 20%;}
+        >.C25BP2{width: 25%;}
+        >.C30BP2{width: 30%;}
+        >.C35BP2{width: 35%;}
+        >.C40BP2{width: 40%;}
+        >.C45BP2{width: 45%;}
+        >.C50BP2{width: 50%;}
+        >.C55BP2{width: 55%;}
+        >.C60BP2{width: 60%;}
+        >.C65BP2{width: 65%;}
+        >.C70BP2{width: 70%;}
+        >.C75BP2{width: 75%;}
+        >.C80BP2{width: 80%;}
+        >.C85BP2{width: 85%;}
+        >.C90BP2{width: 90%;}
+        >.C95BP2{width: 95%;}
+    }
+}
+
+@media screen and (min-width:$BP3){
+    .DF{
+        &.BP3{
+            display: flex;
+            &.BPR{width: $BP3;}
+        }
+        >.C5BP3{width: 5%;}
+        >.C10BP3{width: 10%;}
+        >.C15BP3{width: 15%;}
+        >.C20BP3{width: 20%;}
+        >.C25BP3{width: 25%;}
+        >.C30BP3{width: 30%;}
+        >.C35BP3{width: 35%;}
+        >.C40BP3{width: 40%;}
+        >.C45BP3{width: 45%;}
+        >.C50BP3{width: 50%;}
+        >.C55BP3{width: 55%;}
+        >.C60BP3{width: 60%;}
+        >.C65BP3{width: 65%;}
+        >.C70BP3{width: 70%;}
+        >.C75BP3{width: 75%;}
+        >.C80BP3{width: 80%;}
+        >.C85BP3{width: 85%;}
+        >.C90BP3{width: 90%;}
+        >.C95BP3{width: 95%;}
+    }
+}
+
+@media screen and (min-width:$BP4){
+    .DF{
+        &.BP4{
+            display: flex;
+            &.BPR{width: $BP4;}
+        }
+        >.C5BP4{width: 5%;}
+        >.C10BP4{width: 10%;}
+        >.C15BP4{width: 15%;}
+        >.C20BP4{width: 20%;}
+        >.C25BP4{width: 25%;}
+        >.C30BP4{width: 30%;}
+        >.C35BP4{width: 35%;}
+        >.C40BP4{width: 40%;}
+        >.C45BP4{width: 45%;}
+        >.C50BP4{width: 50%;}
+        >.C55BP4{width: 55%;}
+        >.C60BP4{width: 60%;}
+        >.C65BP4{width: 65%;}
+        >.C70BP4{width: 70%;}
+        >.C75BP4{width: 75%;}
+        >.C80BP4{width: 80%;}
+        >.C85BP4{width: 85%;}
+        >.C90BP4{width: 90%;}
+        >.C95BP4{width: 95%;}
+    }
+}
+
+@media screen and (min-width:$BP5){
+    .DF{
+        &.BP5{
+            display: flex;
+            &.BPR{width: $BP5;}
+        }
+        >.C5BP5{width: 5%;}
+        >.C10BP5{width: 10%;}
+        >.C15BP5{width: 15%;}
+        >.C20BP5{width: 20%;}
+        >.C25BP5{width: 25%;}
+        >.C30BP5{width: 30%;}
+        >.C35BP5{width: 35%;}
+        >.C40BP5{width: 40%;}
+        >.C45BP5{width: 45%;}
+        >.C50BP5{width: 50%;}
+        >.C55BP5{width: 55%;}
+        >.C60BP5{width: 60%;}
+        >.C65BP5{width: 65%;}
+        >.C70BP5{width: 70%;}
+        >.C75BP5{width: 75%;}
+        >.C80BP5{width: 80%;}
+        >.C85BP5{width: 85%;}
+        >.C90BP5{width: 90%;}
+        >.C95BP5{width: 95%;}
+    }
+}
+
+@media screen and (min-width:$BP6){
+    .DF{
+        &.BP6{
+            display: flex;
+            &.BPR{width: $BP6;}
+        }
+        >.C5BP6{width: 5%;}
+        >.C10BP6{width: 10%;}
+        >.C15BP6{width: 15%;}
+        >.C20BP6{width: 20%;}
+        >.C25BP6{width: 25%;}
+        >.C30BP6{width: 30%;}
+        >.C35BP6{width: 35%;}
+        >.C40BP6{width: 40%;}
+        >.C45BP6{width: 45%;}
+        >.C50BP6{width: 50%;}
+        >.C55BP6{width: 55%;}
+        >.C60BP6{width: 60%;}
+        >.C65BP6{width: 65%;}
+        >.C70BP6{width: 70%;}
+        >.C75BP6{width: 75%;}
+        >.C80BP6{width: 80%;}
+        >.C85BP6{width: 85%;}
+        >.C90BP6{width: 90%;}
+        >.C95BP6{width: 95%;}
+    }
+}
+
+@media screen and (min-width:$BP7){
+    .DF{
+        &.BP7{
+            display: flex;
+            &.BPR{width: $BP7;}
+        }
+        >.C5BP7{width: 5%;}
+        >.C10BP7{width: 10%;}
+        >.C15BP7{width: 15%;}
+        >.C20BP7{width: 20%;}
+        >.C25BP7{width: 25%;}
+        >.C30BP7{width: 30%;}
+        >.C35BP7{width: 35%;}
+        >.C40BP7{width: 40%;}
+        >.C45BP7{width: 45%;}
+        >.C50BP7{width: 50%;}
+        >.C55BP7{width: 55%;}
+        >.C60BP7{width: 60%;}
+        >.C65BP7{width: 65%;}
+        >.C70BP7{width: 70%;}
+        >.C75BP7{width: 75%;}
+        >.C80BP7{width: 80%;}
+        >.C85BP7{width: 85%;}
+        >.C90BP7{width: 90%;}
+        >.C95BP7{width: 95%;}
+    }
+}
+
+@media screen and (min-width:$BP8){
+    .DF{
+        &.BP8{
+            display: flex;
+            &.BPR{width: $BP8;}
+        }
+        >.C5BP8{width: 5%;}
+        >.C10BP8{width: 10%;}
+        >.C15BP8{width: 15%;}
+        >.C20BP8{width: 20%;}
+        >.C25BP8{width: 25%;}
+        >.C30BP8{width: 30%;}
+        >.C35BP8{width: 35%;}
+        >.C40BP8{width: 40%;}
+        >.C45BP8{width: 45%;}
+        >.C50BP8{width: 50%;}
+        >.C55BP8{width: 55%;}
+        >.C60BP8{width: 60%;}
+        >.C65BP8{width: 65%;}
+        >.C70BP8{width: 70%;}
+        >.C75BP8{width: 75%;}
+        >.C80BP8{width: 80%;}
+        >.C85BP8{width: 85%;}
+        >.C90BP8{width: 90%;}
+        >.C95BP8{width: 95%;}
+    }
+}
+
+@media screen and (min-width:$BP9){
+    .DF{
+        &.BP9{
+            display: flex;
+            &.BPR{width: $BP9;}
+        }
+        >.C5BP9{width: 5%;}
+        >.C10BP9{width: 10%;}
+        >.C15BP9{width: 15%;}
+        >.C20BP9{width: 20%;}
+        >.C25BP9{width: 25%;}
+        >.C30BP9{width: 30%;}
+        >.C35BP9{width: 35%;}
+        >.C40BP9{width: 40%;}
+        >.C45BP9{width: 45%;}
+        >.C50BP9{width: 50%;}
+        >.C55BP9{width: 55%;}
+        >.C60BP9{width: 60%;}
+        >.C65BP9{width: 65%;}
+        >.C70BP9{width: 70%;}
+        >.C75BP9{width: 75%;}
+        >.C80BP9{width: 80%;}
+        >.C85BP9{width: 85%;}
+        >.C90BP9{width: 90%;}
+        >.C95BP9{width: 95%;}
+    }
+}
+
+@media screen and (min-width:$BP10){
+    .DF{
+        &.BP10{
+            display: flex;
+            &.BPR{width: $BP10;}
+        }
+        >.C5BP10{width: 5%;}
+        >.C10BP10{width: 10%;}
+        >.C15BP10{width: 15%;}
+        >.C20BP10{width: 20%;}
+        >.C25BP10{width: 25%;}
+        >.C30BP10{width: 30%;}
+        >.C35BP10{width: 35%;}
+        >.C40BP10{width: 40%;}
+        >.C45BP10{width: 45%;}
+        >.C50BP10{width: 50%;}
+        >.C55BP10{width: 55%;}
+        >.C60BP10{width: 60%;}
+        >.C65BP10{width: 65%;}
+        >.C70BP10{width: 70%;}
+        >.C75BP10{width: 75%;}
+        >.C80BP10{width: 80%;}
+        >.C85BP10{width: 85%;}
+        >.C90BP10{width: 90%;}
+        >.C95BP10{width: 95%;}
+    }
+}
+
+@media screen and (min-width:$BP11){
+    .DF{
+        &.BP11{
+            display: flex;
+            &.BPR{width: $BP11;}
+        }
+        >.C5BP11{width: 5%;}
+        >.C10BP11{width: 10%;}
+        >.C15BP11{width: 15%;}
+        >.C20BP11{width: 20%;}
+        >.C25BP11{width: 25%;}
+        >.C30BP11{width: 30%;}
+        >.C35BP11{width: 35%;}
+        >.C40BP11{width: 40%;}
+        >.C45BP11{width: 45%;}
+        >.C50BP11{width: 50%;}
+        >.C55BP11{width: 55%;}
+        >.C60BP11{width: 60%;}
+        >.C65BP11{width: 65%;}
+        >.C70BP11{width: 70%;}
+        >.C75BP11{width: 75%;}
+        >.C80BP11{width: 80%;}
+        >.C85BP11{width: 85%;}
+        >.C90BP11{width: 90%;}
+        >.C95BP11{width: 95%;}
+    }
+}
+
+@media screen and (min-width:$BP12){
+    .DF{
+        &.BP12{
+            display: flex;
+            &.BPR{width: $BP12;}
+        }
+        >.C5BP12{width: 5%;}
+        >.C10BP12{width: 10%;}
+        >.C15BP12{width: 15%;}
+        >.C20BP12{width: 20%;}
+        >.C25BP12{width: 25%;}
+        >.C30BP12{width: 30%;}
+        >.C35BP12{width: 35%;}
+        >.C40BP12{width: 40%;}
+        >.C45BP12{width: 45%;}
+        >.C50BP12{width: 50%;}
+        >.C55BP12{width: 55%;}
+        >.C60BP12{width: 60%;}
+        >.C65BP12{width: 65%;}
+        >.C70BP12{width: 70%;}
+        >.C75BP12{width: 75%;}
+        >.C80BP12{width: 80%;}
+        >.C85BP12{width: 85%;}
+        >.C90BP12{width: 90%;}
+        >.C95BP12{width: 95%;}
+    }
+}
+
+@media screen and (min-width:$BP13){
+    .DF{
+        &.BP13{
+            display: flex;
+            &.BPR{width: $BP13;}
+        }
+        >.C5BP13{width: 5%;}
+        >.C10BP13{width: 10%;}
+        >.C15BP13{width: 15%;}
+        >.C20BP13{width: 20%;}
+        >.C25BP13{width: 25%;}
+        >.C30BP13{width: 30%;}
+        >.C35BP13{width: 35%;}
+        >.C40BP13{width: 40%;}
+        >.C45BP13{width: 45%;}
+        >.C50BP13{width: 50%;}
+        >.C55BP13{width: 55%;}
+        >.C60BP13{width: 60%;}
+        >.C65BP13{width: 65%;}
+        >.C70BP13{width: 70%;}
+        >.C75BP13{width: 75%;}
+        >.C80BP13{width: 80%;}
+        >.C85BP13{width: 85%;}
+        >.C90BP13{width: 90%;}
+        >.C95BP13{width: 95%;}
+    }
+}
+
+@media screen and (min-width:$BP14){
+    .DF{
+        &.BP14{
+            display: flex;
+            &.BPR{width: $BP14;}
+        }
+        >.C5BP14{width: 5%;}
+        >.C10BP14{width: 10%;}
+        >.C15BP14{width: 15%;}
+        >.C20BP14{width: 20%;}
+        >.C25BP14{width: 25%;}
+        >.C30BP14{width: 30%;}
+        >.C35BP14{width: 35%;}
+        >.C40BP14{width: 40%;}
+        >.C45BP14{width: 45%;}
+        >.C50BP14{width: 50%;}
+        >.C55BP14{width: 55%;}
+        >.C60BP14{width: 60%;}
+        >.C65BP14{width: 65%;}
+        >.C70BP14{width: 70%;}
+        >.C75BP14{width: 75%;}
+        >.C80BP14{width: 80%;}
+        >.C85BP14{width: 85%;}
+        >.C90BP14{width: 90%;}
+        >.C95BP14{width: 95%;}
+    }
+}
+
+@media screen and (min-width:$BP15){
+    .DF{
+        &.BP15{
+            display: flex;
+            &.BPR{width: $BP15;}
+        }
+        >.C5BP15{width: 5%;}
+        >.C10BP15{width: 10%;}
+        >.C15BP15{width: 15%;}
+        >.C20BP15{width: 20%;}
+        >.C25BP15{width: 25%;}
+        >.C30BP15{width: 30%;}
+        >.C35BP15{width: 35%;}
+        >.C40BP15{width: 40%;}
+        >.C45BP15{width: 45%;}
+        >.C50BP15{width: 50%;}
+        >.C55BP15{width: 55%;}
+        >.C60BP15{width: 60%;}
+        >.C65BP15{width: 65%;}
+        >.C70BP15{width: 70%;}
+        >.C75BP15{width: 75%;}
+        >.C80BP15{width: 80%;}
+        >.C85BP15{width: 85%;}
+        >.C90BP15{width: 90%;}
+        >.C95BP15{width: 95%;}
+    }
+}

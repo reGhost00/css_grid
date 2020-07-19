@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import S1 from "./s1";
 import S2 from "./s2";
 import S3 from "./s3";
+import S4 from "./s4";
 
 function Top(){
     return <div className="CPMT TOP FN DF">
@@ -18,7 +19,7 @@ function Nav({DATA, CURR, EV_CHANGE}){
 }
 
 export default function(){
-    const sArr = [{tit:"主页", key:"home", Tar:S1}, {tit:"关于", key:"about", Tar:S2}, {tit:"文档", key:"doc", Tar:S3}],
+    const sArr = [{tit:"关于", key:"about", Tar:S2}, {tit:"主页", key:"home", Tar:S1}, {tit:"文档", key:"doc", Tar:S3}, {tit:"表单", key:"form", Tar:S4}],
         sKvs = sArr.reduce((prev, {key, Tar}) => ({...prev, [key]:Tar}), {});
     const [curr, setCurr] = useState(sArr[0].key);
     const Sub = sKvs[curr];

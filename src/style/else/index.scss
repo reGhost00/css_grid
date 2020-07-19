@@ -29,7 +29,7 @@
     }
 }
 
-.S3{
+.ROUTE{
     .R{
         padding: .5rem 0;
     }
@@ -39,3 +39,23 @@
         background-color: #fff;
     }
 }
+
+.S2,
+.S1{
+    .DF>li{
+        @include hh(2rem)
+    }
+    .FN{width: 5rem;}
+}
+
+.S2>.BPR{background-color: #fff;}
+
+[_odd]{
+    background-color: #eee !important;
+}
+
+.col{
+    min-width: 11rem;
+}
+
+li{border: 1px solid #ccc;}

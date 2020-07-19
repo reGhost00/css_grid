@@ -1,68 +1,126 @@
 @import "./var";
 @import "../ext";
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body,
+address, article, aside, footer, header, h1, h2, h3, h4, h5, h6, hgroup, main, nav, section,
+blockquote, dd, div, dl, dt, figcaption, figure, li, main, ol, p, ul, pre,
+mark, q, span, time, video, img, canvas,
+embed, iframe,
+caption, col, colgroup, table, tbody, td, tfoot, th, thead, tr,
+fieldset, form, label, legend, input, textarea, select, option, optgroup, datalist,
+details, summary, dialog{
     @include mp;
 	font-size: 100%;
-	font: inherit;
+    font: inherit;
+    border: 0;
+    outline: 0;
     vertical-align: baseline;
     text-decoration: none;
     font-weight: normal;
     font-style: normal;
     list-style: none;
-    quotes: none;
     box-sizing: border-box !important;
 }
 
-// /* HTML5 display-role reset for older browsers */
-// article, aside, details, figcaption, figure,
-// footer, header, hgroup, menu, nav, section {
-// 	display: block;
-// }
-
-// // ol, ul, dl {
-// // 	list-style: none;
-// // }
-// blockquote, q {
-
-// }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+a, abbr, b, button, bdi, bdo, cite, code, data, dfn, em, i, kbd, rb, rp, rt, rtc, ruby, s, samp, small, strong, sub, sup, u, var{
+    border: 0;
+    outline: 0;
+    box-sizing: border-box !important;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+input, button, textarea, select, datalist{
+    border-radius: 0;
 }
 
 body, html{
-	@include wh;
-	@include cc;
+	@include wh(100vw, 100vh);
+    @include cc;
+    font-family:$normal_ff;
     font-size: $normal_fsz;
     line-height: 1;
 }
 
-input, textarea, button{
-    outline: 0;
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+//
+//样式标准化
+h6{font-size: 1.25rem;}
+h5{font-size: 1.5rem;}
+h4{font-size: 1.75rem;}
+h3{font-size: 2rem;}
+h2{font-size: 2.25rem;}
+h1{font-size: 2.5rem;}
+h3, h2, h1{letter-spacing: .2em;}
+
+a, button,
+details>summary,
+[type="button"],[type="file"],[type="submit"],[type="reset"]{
+    cursor: pointer;
 }
 
-input, textarea{
-    border: $normal_border;
-    font-size: $normal_input_fsz;
+a{
+    &, &:focus, &:visited{color: $normal_link_color ;}
+    &:active{color: $normal_link_active_color;}
+}
+
+a, u, ins{text-decoration: underline;}
+abbr[title]{text-decoration: underline dashed;}
+
+b, strong{font-weight: bold;}
+b, strong, mark{color: $normal_color_darken;}
+cite, dfn, i, em, var,
+q[cite]{
+    padding: $normal_italic_padding;
+    font-style: italic;
+}
+
+mark{background-color:$normal_mark_bgc;}
+
+s, del{text-decoration:line-through;}
+
+code, kbd, samp,
+output{
+    font-family: $normal_ff_mono;
+}
+
+button,
+[type="button"],[type="file"],[type="reset"],[type="submit"]{
+    @include cc($normal_btn_color, $normal_btn_bgc);
+    white-space: nowrap;
+    text-align: center;
+    user-select: none;
+    &:hover{@include cc($normal_btn_hover_color, $normal_btn_hover_bgc)}
+    &:active{@include cc($normal_btn_active_color, $normal_btn_active_bgc)}
+    &:disabled{
+        @include cc($normal_btn_disabled_color, $normal_btn_disabled_bgc);
+        text-shadow: 1px 1px #fff;
+        pointer-events: none;
+        cursor: not-allowed;
+    }
+    &+&{
+        border-left: 0;
+    }
+}
+
+button, input, select{
+    display: inline-flex;
+    align-items: center;
+    overflow: hidden;
+    min-height: $normal_input_height;
+    padding: $normal_input_padding;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: $normal_input_border;
+}
+
+textarea{
+    border: $normal_input_border;
+    padding:$normal_textarea_padding;
+}
+
+input, select, textarea{
     &:focus{
-        border: $normal_border_focus;
+        border: $normal_input_focus_border;
     }
 }

@@ -1,16 +1,36 @@
-$normal_color: #333;
-$normal_bgc:#e0e0e0;
-$normal_border:1px solid #ccc;
-$normal_border_focus:1px solid #999;
+$_N_STEP:9%;
+$_N_STEP_LIGHT: 3%;
+$normal_ff: 'Microsoft YaHei', 'Lucida Sans', Arial, Helvetica;
+$normal_ff_mono: 'Lucida Console', monospace;
 
-$normal_error_color:#933;
-$normal_error_bgc:#fee;
-$normal_error_border:1px solid #500;
+$normal_fsz:    14px;
 
+$normal_color:  #333;
+$normal_color_light:    lighten($normal_color, $_N_STEP);
+$normal_color_darken:   darken($normal_color, $_N_STEP);
 
-$normal_fsz:14px;
-$normal_input_fsz:12px;
+$normal_bgc:    #f0f0f0;
+$normal_bgc_light:  lighten($normal_bgc, $_N_STEP);
+$normal_bgc_darken: darken($normal_bgc, $_N_STEP);
+$normal_mark_bgc:   #ff9;
 
+$normal_link_color:#33c;
+$normal_link_active_color:#c33;
 
-$normal_item_height:2.5em;
-$normal_item_padding:0 5px;
+$normal_italic_padding:0 .2em;
+
+$normal_btn_color:  $normal_color;
+$normal_btn_bgc:    darken($normal_bgc_darken, $_N_STEP_LIGHT);
+$normal_btn_hover_color:darken($normal_btn_color, $_N_STEP);
+$normal_btn_hover_bgc:  darken($normal_btn_bgc, $_N_STEP_LIGHT);
+$normal_btn_active_color:darken($normal_btn_hover_color, $_N_STEP);
+$normal_btn_active_bgc:  darken($normal_btn_hover_bgc, $_N_STEP_LIGHT);
+$normal_btn_disabled_color:$normal_btn_active_bgc;
+$normal_btn_disabled_bgc:  lighten($normal_btn_bgc, $_N_STEP_LIGHT);
+
+$normal_border_color:#777;
+$normal_textarea_padding:.3em;
+$normal_input_border:1px solid lighten($normal_border_color, $_N_STEP);
+$normal_input_height: 2em;
+$normal_input_padding:0 $normal_textarea_padding;
+$normal_input_focus_border:1px solid darken($normal_border_color, $_N_STEP);
